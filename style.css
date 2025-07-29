@@ -58,6 +58,11 @@ header a {
   margin-top: 30px;
 }
 
+header a:hover {
+  background-color: #181525;
+  color: #f1f1f1;
+}
+
 .planning {
   max-width: 1000px;
   padding: 10px 200px;
@@ -74,6 +79,14 @@ header a {
 .planning h3 {
   font-weight: 600 !important;
   margin: 20px 0px 0px 0px;
+}
+
+.planning a {
+  color: #f1f1f1;
+}
+
+.planning a:hover {
+  color: red;
 }
 
 .grid-two-columns {
@@ -137,6 +150,15 @@ footer h2 {
   padding-top: 50px;
   line-height: 1.5;
   font-style: italic;
+}
+
+footer a {
+  color: #f1f1f1;
+  font-style: italic;
+}
+
+footer a:hover {
+  color: red;
 }
 
 footer p {
