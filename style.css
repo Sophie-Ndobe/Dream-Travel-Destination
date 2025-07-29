@@ -13,7 +13,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   padding: 200px 0px;
-  color: white;
+  color: #f1f1f1;
   text-align: center;
 }
 
@@ -52,7 +52,7 @@ header a {
   letter-spacing: 3px;
   line-height: 1.5;
   padding: 16px 32px;
-  background-color: white;
+  background-color: #f1f1f1;
   display: inline-block;
   margin-top: 30px;
 }
@@ -61,11 +61,14 @@ header a {
   max-width: 1000px;
   padding: 10px 200px;
   background-color: #12101d;
-  color: white;
+  color: #f1f1f1;
 }
 
 .text-center {
   text-align: center;
+}
+.planning h2 {
+  margin-bottom: 30px;
 }
 
 .planning h3 {
@@ -78,11 +81,35 @@ header a {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   grid-gap: 10px;
-  margin: 20px 0px;
+  margin: 20px 0px 50px 0px;
 }
 
 .grid-cell {
   padding: 0px 15px;
   background-color: #272435;
+  border-radius: 5px;
+}
+
+.socials {
+  background-color: #181525;
+  padding: 30px;
+  color: #f1f1f1;
+}
+
+.socials h2 {
+  margin: 20px 0px 50px 0px;
+}
+
+.grid-three-columns {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat (2, 1fr);
+  grid-gap: 10px;
+}
+
+.youtube-embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 3px solid #f1f1f1;
   border-radius: 5px;
 }
