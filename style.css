@@ -22,21 +22,21 @@ header {
   margin: 0 auto;
 }
 
-header h1 {
+h1 {
   font-size: 96px;
   line-height: 1.5;
   font-weight: 700;
   margin: 0;
 }
 
-header h2 {
+h2 {
   font-size: 40px;
   line-height: 1.5;
   margin: 0;
   font-weight: 400;
 }
 
-header h3 {
+h3 {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 900;
@@ -55,4 +55,34 @@ header a {
   background-color: white;
   display: inline-block;
   margin-top: 30px;
+}
+
+.planning {
+  max-width: 1000px;
+  padding: 10px 200px;
+  background-color: #12101d;
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.planning h3 {
+  font-weight: 600 !important;
+  margin: 10px 0px 0px 0px;
+}
+
+.grid-two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 20px 0px;
+}
+
+.grid-cell {
+  padding: 0px 15px;
+  background-color: #272435;
+  border-radius: 5px;
 }
