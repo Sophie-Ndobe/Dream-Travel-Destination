@@ -82,6 +82,11 @@ header a:hover {
   margin: 20px 0px 0px 0px;
 }
 
+.planning p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
 .planning a {
   color: #f1f1f1;
 }
@@ -107,14 +112,22 @@ header a:hover {
 .cards-container {
   padding: 50px;
 }
-.cards-container h3,
-p {
+.cards-container h3 {
   padding: 0 20px;
+}
+
+.cards-container p {
+  padding: 0 20px;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
 .cards-container a {
   display: inline-block;
   margin: 20px auto;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 3px;
 }
 
 .card-image {
@@ -243,6 +256,9 @@ footer p {
     max-width: 1400px;
     padding: 10px 50px;
   }
+  .planning p {
+    font-size: 12px;
+  }
 
   .grid-two-columns {
     grid-template-columns: 1fr;
@@ -250,6 +266,14 @@ footer p {
 
   .grid-three-columns {
     grid-template-columns: 1fr;
+  }
+
+  .cards-container p {
+    font-size: 12px;
+  }
+
+  .grid-cell-cards a {
+    font-size: 10px;
   }
 
   footer h2 {
